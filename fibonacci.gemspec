@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Fibonacci::VERSION
   spec.authors       = ["Décio Ferreira"]
   spec.email         = ["decio.ferreira@decioferreira.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Fibonacci sequence}
+  spec.summary       = %q{Fibonacci sequence}
   spec.homepage      = ""
   spec.license       = "MIT"
 
