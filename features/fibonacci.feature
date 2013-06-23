@@ -19,3 +19,7 @@ Feature: Fibonacci sequence
       | 4     | 3      |
       | 5     | 5      |
       | 6     | 8      |
+
+  Scenario: string value
+    Given I ask the Fibonacci number for the string "two"
+     Then I should receive a raise of an error with type "TypeError"
